@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Pathway+Gothic+One&display=swap');
+
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+body {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 97vh;
+   color: #000;
+   background-color: #888;
+}
+
+button {
+   padding: 15px 20px;
+   border: none;
+   border-radius: 5px;
+   font-size: 1.6rem;
+   color: #000;
+   cursor: pointer;
+   font-weight: bold;
+   background-color: #eee;
+}
+
+button i {
+   margin: 17px;
+   font-size: 1.4rem;
+   color: red;
+}
+
+button #sino {
+   margin: 13px;
+   font-size: 20px;
+   color: #888;
+}
